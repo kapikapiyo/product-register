@@ -1,0 +1,7 @@
+$ docker login -u "$HEROKU_USERNAME" -p "HEROKU_API_KEY" registry.heroku.com
+
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+
+Error response from daemon: login attempt to https://registry.heroku.com/v2/ failed with status: 401 Unauthorized
+
+The command "docker login -u "$HEROKU_USERNAME" -p "HEROKU_API_KEY" registry.heroku.com" failed and exited with 1 during .
